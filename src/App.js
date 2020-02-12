@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+<<<<<<< HEAD
 import { Router, Link } from "@reach/router";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
 import ThemeContext from "./ThemeContext";
+=======
+import Pet from "./Pet";
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
 
 const App = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
   const theme = useState("darkblue");
   return (
+<<<<<<< HEAD
     <ThemeContext.Provider value={theme}>
       <div>
         <header>
@@ -21,6 +26,14 @@ const App = () => {
         </Router>
       </div>
     </ThemeContext.Provider>
+=======
+    <div>
+      <h1>Adopt Me!</h1>
+      <Pet name="Luna" animal="dog" breed="Havanese" />
+      <Pet name="Pepper" animal="bird" breed="Cockatiel" />
+      <Pet name="Doink" animal="cat" breed="Mix" />
+    </div>
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
   );
 };
 

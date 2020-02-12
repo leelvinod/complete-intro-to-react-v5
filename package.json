@@ -4,8 +4,11 @@
   "description": "the Complete Intro to React, v5",
   "main": "src/App.js",
   "dependencies": {
+<<<<<<< HEAD
     "@frontendmasters/pet": "^1.0.3",
     "@reach/router": "^1.2.1",
+=======
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
@@ -17,12 +20,12 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "cross-env": "^5.2.0",
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.15.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
+<<<<<<< HEAD
     "eslint-plugin-react-hooks": "^1.0.2",
 =======
     "eslint": "^5.12.1",
@@ -32,13 +35,13 @@
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
 >>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
+=======
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
     "parcel-bundler": "^1.12.1",
     "prettier": "^1.16.1"
   },
   "scripts": {
-    "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel src/index.html",
-    "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
