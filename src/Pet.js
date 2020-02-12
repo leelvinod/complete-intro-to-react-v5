@@ -3,6 +3,7 @@ import { Link } from "@reach/router";
 
 const Pet = props => {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const { name, animal, breed, media, location, id } = props;
 
   let hero = "http://placecorgi.com/300/300";
@@ -22,11 +23,16 @@ const Pet = props => {
     </Link>
   );
 =======
+=======
+>>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
   return React.createElement("div", {}, [
     React.createElement("h1", {}, props.name),
     React.createElement("h2", {}, props.animal),
     React.createElement("h2", {}, props.breed)
   ]);
+<<<<<<< HEAD
+>>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
+=======
 >>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
 };
 

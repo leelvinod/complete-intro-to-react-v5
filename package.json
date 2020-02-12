@@ -11,6 +11,7 @@
   },
   "devDependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.3",
@@ -23,6 +24,10 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.0.2",
+=======
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^4.0.0",
+>>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
 =======
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
