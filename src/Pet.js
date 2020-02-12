@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "@reach/router";
 
 const Pet = props => {
+<<<<<<< HEAD
   const { name, animal, breed, media, location, id } = props;
 
   let hero = "http://placecorgi.com/300/300";
@@ -20,6 +21,13 @@ const Pet = props => {
       </div>
     </Link>
   );
+=======
+  return React.createElement("div", {}, [
+    React.createElement("h1", {}, props.name),
+    React.createElement("h2", {}, props.animal),
+    React.createElement("h2", {}, props.breed)
+  ]);
+>>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
 };
 
 export default Pet;
