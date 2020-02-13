@@ -13,6 +13,7 @@
     "react/prop-types": 0
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "parser": "babel-eslint",
   "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
 =======
@@ -23,6 +24,9 @@
   "extends": ["eslint:recommended", "prettier", "prettier/react"],
   "plugins": [],
 >>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
+=======
+  "plugins": ["react", "import", "jsx-a11y"],
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
 =======
   "plugins": ["react", "import", "jsx-a11y"],
 >>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client

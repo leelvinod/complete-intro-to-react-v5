@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Router, Link } from "@reach/router";
 import Details from "./Details";
 import SearchParams from "./SearchParams";
 import ThemeContext from "./ThemeContext";
+=======
+import Pet from "./Pet";
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
 =======
 import Pet from "./Pet";
 >>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client

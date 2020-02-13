@@ -5,8 +5,11 @@
   "main": "src/App.js",
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@frontendmasters/pet": "^1.0.3",
     "@reach/router": "^1.2.1",
+=======
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
 =======
 >>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
     "react": "^16.8.4",
@@ -26,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "eslint-plugin-react-hooks": "^1.0.2",
 =======
     "eslint": "^5.12.1",
@@ -35,6 +39,8 @@
     "eslint": "^5.12.1",
     "eslint-config-prettier": "^4.0.0",
 >>>>>>> parent of 0f7977a... convert project to JSX, add React-specific ESLint config
+=======
+>>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
 =======
 >>>>>>> parent of 3c42e35... useState, custome hooks, update ESLint, bring in petfinder client
     "parcel-bundler": "^1.12.1",
